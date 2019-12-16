@@ -7,14 +7,41 @@
 
 header {
   height: 538px;
+  min-width: 1440px;
   background-image: url('../images/your_verse_hero.jpg');
   background-size: 1440px 1315px;
   background-position-y: 534px;
 }
 
+nav {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 auto;
+  width: 980px;
+  height: 114px;
+}
+
+.nav-item {
+  height: 36px;
+  width: 106px;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.leftmost-nav-item {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.rightmost-nav-item {
+  width: 132px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
 .container {
+  width: 1440px;
   margin: 0 auto;
   padding: 0;
-  width: 76%;
   height: 1500px;
 }
