@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid 1px red;
+}
+
+header {
+  height: 538px;
+  background-image: url('../images/your_verse_hero.jpg');
+  background-size: 1440px 1315px;
+  background-position-y: 534px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 76%;
+  height: 1500px;
+}
