@@ -10,7 +10,7 @@
 header {
   display: flex;
   flex-direction: column;
-  height: 538px;
+  height: 534px;
   min-width: 1440px;
   background-image: url("../images/your_verse_hero.jpg");
   background-size: 1440px 1315px;
@@ -25,12 +25,36 @@ main {
   height: 200px;
 }
 
+footer {
+  width: 1015px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+footer * {
+  color: #6e6e6e;
+}
+
+footer a {
+  font-size: 10px;
+  text-decoration: none;
+  padding: 0 4px;
+  color: #08c;
+}
+
 nav {
   display: flex;
   align-items: flex-end;
   margin: 0 auto;
   width: 980px;
   height: 114px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .nav-item {
@@ -42,6 +66,7 @@ nav {
   width: 106px;
   border-right: 1px solid black;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
 }
 
 .nav-item:hover {
@@ -108,6 +133,7 @@ nav {
   width: 132px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  border-right: none;
 }
 
 .rightmost-nav-item:hover {
@@ -177,17 +203,44 @@ nav {
   margin-right: 0;
 }
 
-.container {
-  width: 1440px;
-  margin: 0 auto;
-  padding: 0;
-  height: 1500px;
+.links-list {
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+}
+
+.links-list li {
+  display: inline-block;
+  border-right: 1px solid lightgray;
+}
+
+#last-link-item {
+  border-right: none;
+  position: relative;
+  top: 5px;
+}
+
+.contact-and-legal {
+  float: left;
+  margin-top: 4px;
+}
+
+.contact-and-legal * {
+  font-size: 10px;
+}
+
+.legal-notice {
+  margin-top: 12px;
+}
+
+.last-link-legal {
+  border-left: 1px solid lightgray;
 }
 
 @media (min-width: 1600px) {
   header {
-    height: 677px;
-    background-position-y: 677px;
+    height: 630px;
+    background-position-y: 630px;
   }
 
   .header-text {
