@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: 12px/18px "San Francisco", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   height: 538px;
   min-width: 1440px;
   background-image: url("../images/your_verse_hero.jpg");
   background-size: 1440px 1315px;
   background-position-y: 534px;
+  text-align: center;
 }
 
 nav {
@@ -102,9 +107,72 @@ nav {
   background: linear-gradient(#8b8b8b, #656565 50%, #787878 100%);
 }
 
+.header-text {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.header-text * {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header-text a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.header-text a:hover {
+  text-decoration: underline;
+}
+
+.header-text > h1 {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.header-text > h2 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 45px;
+}
+
+.header-text div > h3 {
+  font-size: 25px;
+}
+
+.header-link-container {
+  width: 613px;
+  margin: 0 auto;
+}
+
+.play-button {
+  float: right;
+  position: relative;
+  bottom: 4px;
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-position-y: 223px;
+  background-position-x: 251px;
+}
+
 .container {
   width: 1440px;
   margin: 0 auto;
   padding: 0;
   height: 1500px;
+}
+
+@media (min-width: 1600px) {
+  header {
+    height: 677px;
+    background-position-y: 677px;
+  }
+
+  .header-text {
+    margin-top: 150px;
+  }
 }
