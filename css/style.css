@@ -18,6 +18,13 @@ header {
   text-align: center;
 }
 
+main {
+  display: flex;
+  margin-top: 2px;
+  width: 100%;
+  height: 200px;
+}
+
 nav {
   display: flex;
   align-items: flex-end;
@@ -157,6 +164,17 @@ nav {
   background-image: url(../images/cta_your_verse_27pt.png);
   background-position-y: 223px;
   background-position-x: 251px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 2px;
+  max-width: 24.9%;
+  overflow: hidden;
+}
+
+.last-image {
+  margin-right: 0;
 }
 
 .container {
