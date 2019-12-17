@@ -2,7 +2,7 @@
 
 > This is a personal project I built for the Microverse Main Curriculum course. It is meant to showcase everything I've learned about background images, gradients, and building layouts with these features.
 
-![screenshot](./images/screenshot.png)
+![screenshot](https://github.com/ivanid22/microverse-backgrounds-and-gradients-project/blob/features/images/screenshot.PNG)
 
 The assignment for the project was to build a clone of an old version of Apple's website, linked [here](https://web.archive.org/web/20140301004610/http://www.apple.com/). 
 The site looks simple enough at first sight, but I did run into a couple of complications trying to adjust the sizes of the containers to make the background images fit.
