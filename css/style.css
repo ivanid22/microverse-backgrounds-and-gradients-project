@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 12px/18px "San Francisco", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 534px;
+  min-width: 1440px;
+  background-image: url("../images/your_verse_hero.jpg");
+  background-size: 1440px 1315px;
+  background-position-y: 534px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  margin-top: 2px;
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  width: 1015px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+footer * {
+  color: #6e6e6e;
+}
+
+footer a {
+  font-size: 10px;
+  text-decoration: none;
+  padding: 0 4px;
+  color: #08c;
+}
+
+.header-text a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 auto;
+  width: 980px;
+  height: 114px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(#8b8b8b, #656565 50%, #787878 100%);
+  border: 1px solid #7d7d7d;
+  height: 36px;
+  width: 106px;
+  border-right: 1px solid black;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+}
+
+.nav-item:hover {
+  background: linear-gradient(#555, #404040 50%, #545454 100%);
+}
+
+.apple-logo-btn {
+  display: inline-block;
+  margin-top: 5px;
+  width: 23px;
+  height: 23px;
+  background-image: url("../images/globalnav_text.png");
+  background-position: 50% -4px;
+}
+
+.search-box-border {
+  display: inline-block;
+  margin-top: 5px;
+  width: 91px;
+  height: 24px;
+  background: linear-gradient(#4a4a4a, #898989);
+  text-align: center;
+  border-radius: 24px;
+}
+
+.search-box-container {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0 0 2px;
+  color: inherit;
+  margin-top: 1px;
+  background: linear-gradient(#888 50%, #777 100%);
+  border-radius: 23px;
+  width: 88px;
+  height: 23px;
+}
+
+.search-box-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGcgZmlsbC1vcGFjaXR5PSIuNSI%2BCgk8cG9seWdvbiBwb2ludHM9IjkuMjA3LDcuMTI2IDcuNzkzLDguNTQxIDExLjc5MywxMi41NDEgMTMuMjA3LDExLjEyNiIgLz4KCTxwYXRoIGQ9Ik01LjkxNywzYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsOC44MzMsNS45MTcsOC44MzNTMyw3LjUyNSwzLDUuOTE3UzQuMzA4LDMsNS45MTcsMyBNNS45MTcsMQoJCUMzLjIwMSwxLDEsMy4yMDEsMSw1LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMy4yMDEsOC42MzIsMSw1LjkxNywxTDUuOTE3LDF6IiAvPgo8L2c%2BCjxnPgoJPHBvbHlnb24gZmlsbD0iI2ZmZiIgcG9pbnRzPSI5LjIwNyw2LjEyNiA3Ljc5Myw3LjU0MSAxMS43OTMsMTEuNTQxIDEzLjIwNywxMC4xMjYiIC8%2BCgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNS45MTcsMmMxLjYwOCwwLDIuOTE3LDEuMzA4LDIuOTE3LDIuOTE3UzcuNTI1LDcuODMzLDUuOTE3LDcuODMzUzMsNi41MjUsMyw0LjkxN1M0LjMwOCwyLDUuOTE3LDIKCQkgTTUuOTE3LDBDMy4yMDEsMCwxLDIuMjAxLDEsNC45MTdzMi4yMDEsNC45MTcsNC45MTcsNC45MTdzNC45MTctMi4yMDEsNC45MTctNC45MTdDMTAuODMzLDIuMjAxLDguNjMyLDAsNS45MTcsMEw1LjkxNywweiIgLz4KPC9nPgo8L3N2Zz4K");
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  float: left;
+}
+
+.search-box {
+  width: 72px;
+  height: 14px;
+  padding-left: 3px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  float: right;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.leftmost-nav-item {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.rightmost-nav-item {
+  width: 132px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right: none;
+}
+
+.rightmost-nav-item:hover {
+  cursor: auto;
+  background: linear-gradient(#8b8b8b, #656565 50%, #787878 100%);
+}
+
+.header-text {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.header-text * {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header-text a:hover {
+  text-decoration: underline;
+}
+
+.header-text > h1 {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.header-text > h2 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 45px;
+}
+
+.header-text div > h3 {
+  font-size: 25px;
+}
+
+.header-link-container {
+  width: 613px;
+  margin: 0 auto;
+}
+
+.play-button {
+  float: right;
+  position: relative;
+  bottom: 4px;
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-position-y: 223px;
+  background-position-x: 251px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 2px;
+  max-width: 24.9%;
+  overflow: hidden;
+}
+
+.last-image {
+  margin-right: 0;
+}
+
+.links-list {
+  float: right;
+  text-decoration: none;
+}
+
+.links-list li {
+  display: inline-block;
+  border-right: 1px solid lightgray;
+}
+
+#last-link-item {
+  border-right: none;
+  position: relative;
+  top: 5px;
+}
+
+.contact-and-legal {
+  float: left;
+  margin-top: 4px;
+}
+
+.contact-and-legal * {
+  font-size: 10px;
+}
+
+.legal-notice {
+  margin-top: 12px;
+}
+
+.last-link-legal {
+  border-left: 1px solid lightgray;
+}
+
+@media (min-width: 1600px) {
+  header {
+    height: 630px;
+    background-position-y: 630px;
+  }
+
+  .header-text {
+    margin-top: 150px;
+  }
+}
