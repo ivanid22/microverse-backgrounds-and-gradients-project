@@ -43,6 +43,16 @@ footer a {
   color: #08c;
 }
 
+.header-text a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   align-items: flex-end;
@@ -75,6 +85,7 @@ nav {
 
 .apple-logo-btn {
   display: inline-block;
+  margin-top: 5px;
   width: 23px;
   height: 23px;
   background-image: url("../images/globalnav_text.png");
@@ -83,6 +94,7 @@ nav {
 
 .search-box-border {
   display: inline-block;
+  margin-top: 5px;
   width: 91px;
   height: 24px;
   background: linear-gradient(#4a4a4a, #898989);
@@ -137,6 +149,7 @@ nav {
 }
 
 .rightmost-nav-item:hover {
+  cursor: auto;
   background: linear-gradient(#8b8b8b, #656565 50%, #787878 100%);
 }
 
@@ -149,12 +162,6 @@ nav {
 
 .header-text * {
   font-family: 'Quicksand', sans-serif;
-}
-
-.header-text a {
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
 }
 
 .header-text a:hover {
@@ -204,7 +211,6 @@ nav {
 }
 
 .links-list {
-  display: inline-block;
   float: right;
   text-decoration: none;
 }
